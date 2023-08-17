@@ -59,6 +59,6 @@ app.listen(3000,()=>{
     console.log("connected ")
 });
 app.get('/',(req,res)=>{
-res.status(500).json(locationData);
+res.status(200).json(locationData);
 // res.json(locationData);
 })
